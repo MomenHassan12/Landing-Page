@@ -1,0 +1,137 @@
+@media (max-width: 1199px) and (min-width: 768px) {
+    /* Navbar */
+    .navbar .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .nav-content {
+        margin-top: 10px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .call-us {
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    .kits-items, .values-items, #energy .row, #woc .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .kits-items .item, .values-items .value, #energy .item1, #energy .item2 {
+        width: 45%;
+        margin-bottom: 15px;
+    }
+    #energy .item1, #energy .item2 {
+        width: 45%;
+    }
+  
+    .woc .woc-heading, .woc .woc-answering {
+        width: 100%;
+    }
+
+    /* About Section */
+    #about .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .about-contnent, .about-img {
+        width: 45%;
+    }
+
+    /* Footer */
+    footer .container {
+        width: 80%;
+        margin: auto;
+    }
+    footer .row {
+        flex-direction: column;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-content .content {
+        width: 100%;
+    }
+    .footer-content .content ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .subscribe-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    /* Navbar */
+    .navbar .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .nav-content {
+        margin-top: 10px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .call-us {
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    .kits-items, .values-items, #energy .row, #woc .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .kits-items .item, .values-items .value, #energy .item1, #energy .item2 {
+        width: 95%;
+        margin-bottom: 15px;
+    }
+    .woc .woc-heading, .woc .woc-answering {
+        width: 100%;
+    }
+
+    /* About Section */
+    #about .row {
+        flex-direction: column;
+    }
+    .about-contnent, .about-img {
+        width: 100%;
+    }
+
+    /* Footer */
+    footer .container {
+        width: 100%;
+    }
+    footer .row {
+        flex-direction: column;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-content .content {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-content .content ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .subscribe-container {
+        width: 100%;
+    }
+}
